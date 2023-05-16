@@ -42,7 +42,7 @@ def run():
                 elif event.key == pygame.K_f:
                     dir = [0, sqr_size]
                 elif event.key == pygame.K_q:
-                    pygame.QUIT();
+                    pygame.QUIT()
         x1 += dir[0]
         y1 += dir[1]
         dis.fill(blue)
